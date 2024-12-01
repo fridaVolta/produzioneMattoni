@@ -1,0 +1,33 @@
+mescolata malta per 200 mattoni dall'impastatore 0
+mescolata malta per 200 mattoni dall'impastatore 4
+mescolata malta per 200 mattoni dall'impastatore 7
+mescolata malta per 200 mattoni dall'impastatore 1
+mescolata malta per 200 mattoni dall'impastatore 3
+mescolata malta per 200 mattoni dall'impastatore 6
+mescolata malta per 200 mattoni dall'impastatore 2
+mescolata malta per 200 mattoni dall'impastatore 5
+Prodotti 200 mattoni in uscita dal rullo 2
+Prodotti 200 mattoni in uscita dal rullo 5
+Prodotti 200 mattoni in uscita dal rullo 7
+Prodotti 200 mattoni in uscita dal rullo 3
+Prodotti 200 mattoni in uscita dal rullo 1
+rullo 2 ha infornato 200 mattoni
+rullo 1 ha infornato 200 mattoni
+sto cuocendo 400 mattoni
+rullo 5 ha infornato 200 mattoni
+rullo 3 ha infornato 200 mattoni
+sto cuocendo 400 mattoni
+rullo 7 ha infornato 200 mattoni
+
+Prodotti 200 mattoni in uscita dal rullo 4
+Prodotti 200 mattoni in uscita dal rullo 0
+
+
+rullo 0 ha infornato 200 mattoni
+sto cuocendo 400 mattoni
+rullo 4 ha infornato 200 mattoni
+
+Prodotti 200 mattoni in uscita dal rullo 6
+rullo 6 ha infornato 200 mattoni
+sto cuocendo 400 mattoni
+Imballati e stoccati in magazzino tutti i 1600 mattoni
