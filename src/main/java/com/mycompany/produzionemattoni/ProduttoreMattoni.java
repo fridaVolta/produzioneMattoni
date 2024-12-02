@@ -38,9 +38,18 @@ public class ProduttoreMattoni implements Runnable {
             strB.append(result);strB.append(System.getProperty("line.separator"));
             mattoniStampatiList = r.TrasportaMattoni();
             result=forno.Inforna(mattoniStampatiList,codiceThreadProduttore);
+            //insisti ad infornare fintanto che il num di mattoni non torna <= 200
+            while(result.equals(new String(""))){//se resittuisce stringa vuota
+                //vuol dire che non ha infornato
+                //perché il num di mattoni è maggiore di 200
+                //deve aspettare che il forno cuocia e venga svuotato
+                result=forno.Inforna(mattoniStampatiList,codiceThreadProduttore);
+            }         
             strB.append(result);strB.append(System.getProperty("line.separator"));
             result=forno.Cuoci();
-            strB.append(result);strB.append(System.getProperty("line.separator"));
+            if(!result.equals(new String(""))){
+                strB.append(result);strB.append(System.getProperty("line.separator"));              
+            }
         } catch (InterruptedException ex) {
             Logger.getLogger(ProduttoreMattoni.class.getName()).log(Level.SEVERE, null, ex);
         }
